@@ -1,0 +1,52 @@
+.heroes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.heroContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    border-radius: 50px;
+}
+
+.heroContainer img{
+    max-height: 15rem;
+    border-radius: 20px;
+}
+
+select{
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:1000px){
+
+    .heroContainer{
+        padding: 0.2rem 2rem 0.2rem 2rem;
+    }
+    .heroContainer img{
+        max-height: 13rem;
+    }
+}
+
+
+
+@media screen and (max-width:600px){
+    .heroes{
+        flex-direction: column;;
+    }
+    .heroContainer{
+        padding: 1rem 0 0.2rem 0;
+    }
+    .heroContainer img{
+        max-height: 11rem;
+    }
+}
+
+

@@ -1,0 +1,23 @@
+.dashboard-table {
+    flex: 1 0 12%;
+    padding-inline: 6%;
+    padding-block: 1% 2%;
+}
+
+.coluna1{
+    width: 110px;
+}
+
+.coluna2{
+    width: 230px;
+}
+
+.coluna3{
+    width: 105px;
+}
+
+.coluna2 img{
+    width: 110px;
+    height: 110px;
+    border-radius: 20%;
+}
